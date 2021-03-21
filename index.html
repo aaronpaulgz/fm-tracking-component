@@ -27,5 +27,50 @@
     />
     <title>Frontend Mentor | Project tracking intro component</title>
   </head>
-  <body></body>
+  <body>
+    <div class="ornament"></div>
+    <header class="mob_header">
+      <img class="mob_header_logo" src="./images/logo.svg" alt="" />
+      <div class="mob_header_events">
+        <img
+          onclick="show()"
+          class="mob_header_hamburger"
+          src="./images/icon-hamburger.svg"
+          alt=""
+        />
+        <img
+          onclick="hide()"
+          class="mob_header_close"
+          src="./images/icon-close.svg"
+          alt=""
+        />
+      </div>
+      <div class="mob_modal">
+        <ul class="mob_modal_list">
+          <li>Product</li>
+          <li>Features</li>
+          <li>Pricing</li>
+        </ul>
+        <p class="mob_modal_cta">Login</p>
+      </div>
+    </header>
+    <main class="main">
+      <div class="hero_img"></div>
+      <section class="hero_text">
+        <div class="hero_promo">
+          <p class="promo_new">new</p>
+          <p class="promo">monograph dashboard</p>
+        </div>
+        <h1 class="hero_title">Powerful insights into your team</h1>
+        <p class="hero_description">
+          Project planning and time tracking for agile teams
+        </p>
+        <div class="hero_links">
+          <p class="hero_cta">schedule a demo</p>
+          <p class="hero_preview">to see a preview</p>
+        </div>
+      </section>
+    </main>
+    <script src="./scripts.js"></script>
+  </body>
 </html>
