@@ -1,6 +1,6 @@
 .ornament {
-  width: 400px;
-  height: 380px;
+  width: 440px;
+  height: 360px;
 }
 
 .mob_header {
@@ -37,10 +37,11 @@
 .header_nav .header_list {
   display: flex;
   justify-content: space-between;
-  width: 280px;
+  width: 260px;
   list-style: none;
   color: var(--Very-Dark-Blue);
   font-weight: 700;
+  font-family: var(--Secondary-Font);
 }
 
 .header_nav .header_list li:hover {
@@ -111,6 +112,11 @@
 }
 
 @media screen and (min-width: 1439px) {
+  .ornament {
+    width: 800px;
+    height: 420px;
+  }
+
   .header {
     width: 1140px;
     max-width: 1440px;
