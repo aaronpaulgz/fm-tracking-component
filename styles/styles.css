@@ -31,6 +31,10 @@ body {
   background-color: var(--Light-Grayish-Blue);
 }
 
+.header {
+  display: none;
+}
+
 .mob_header {
   display: flex;
   margin: 0 auto;

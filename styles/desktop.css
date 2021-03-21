@@ -1,0 +1,132 @@
+.ornament {
+  width: 400px;
+  height: 380px;
+}
+
+.mob_header {
+  display: none;
+}
+
+.header {
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  min-width: 1000px;
+  max-width: 1020px;
+  height: 120px;
+  margin: 0 auto;
+}
+.header .header_logo {
+  width: 48px;
+  height: 48px;
+}
+
+.header .header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+  text-transform: uppercase;
+}
+
+.header_nav .header_list {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  list-style: none;
+  color: var(--Very-Dark-Blue);
+  font-weight: 700;
+}
+
+.header_nav .header_list li:hover {
+  cursor: pointer;
+  text-decoration: 2px underline var(--Dark-Grayish-Blue);
+}
+
+.header .nav_circle {
+  width: 8px;
+  height: 8px;
+  background-color: var(--Grayish-Blue);
+  border-radius: 50%;
+}
+
+.header .header_login {
+  font-weight: 700;
+  color: var(--Grayish-Blue);
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  max-width: 1000px;
+  height: 70vh;
+  align-items: center;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hero_img {
+  width: 60%;
+  height: 100%;
+  order: 2;
+  background-position: 100px 100px;
+  background-size: 700px;
+}
+
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 40%;
+  max-width: 100%;
+}
+
+.hero_text .hero_promo {
+  justify-content: flex-start;
+  font-size: 1.2rem;
+}
+
+.hero_promo .promo_new {
+  padding: 4px 8px 4px 10px;
+}
+
+.hero_text .hero_title {
+  font-size: 2.6rem;
+}
+
+.hero_text .hero_description {
+  font-size: 1.4rem;
+}
+
+.hero_links {
+  justify-content: start;
+  align-items: left;
+  font-size: 1.2rem;
+  margin: 32px 0 0 0;
+}
+
+@media screen and (min-width: 1439px) {
+  .header {
+    width: 1140px;
+    max-width: 1440px;
+  }
+  .main {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .hero_img {
+    background-size: 740px;
+    background-position: 200px 80px;
+  }
+
+  .hero_text {
+    width: 420px;
+    margin: 0 0 0 auto;
+  }
+} ;
