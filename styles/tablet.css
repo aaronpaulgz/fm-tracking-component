@@ -1,0 +1,90 @@
+.ornament {
+  width: 400px;
+  height: 380px;
+}
+
+.mob_header {
+  height: 120px;
+  width: 600px;
+  max-width: 720px;
+}
+
+.mob_header_logo {
+  width: 32px;
+  height: 32px;
+}
+
+.mob_header_hamburger {
+  width: 32px;
+  height: 100%;
+}
+
+.mob_header_close {
+  width: 26px;
+  height: 100%;
+  display: none;
+}
+
+/* Mobile Modal */
+
+.mob_modal {
+  top: 120px;
+  padding: 32px;
+  width: 600px;
+  max-width: 620px;
+  border-radius: 8px;
+}
+
+.mob_modal .mob_modal_list {
+  font-size: 1.2rem;
+}
+
+.mob_modal .mob_modal_list > li {
+  margin: 0 0 32px 0;
+}
+
+.mob_modal > .mob_modal_cta {
+  margin: 20px 0 0 0;
+  font-size: 1.2rem;
+}
+
+/* Mobile Modal ENDS*/
+
+.main {
+  width: 100%;
+  text-align: center;
+}
+
+.hero_img {
+  background-image: url("../images/illustration-devices.svg");
+  background-position: 300px 0px;
+  background-size: 550px;
+}
+
+.hero_text {
+  width: 600px;
+  max-width: 620px;
+}
+
+.hero_text .hero_promo {
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.hero_promo .promo_new {
+  padding: 4px 8px 4px 10px;
+}
+
+.hero_text .hero_title {
+  font-size: 2.4rem;
+}
+
+.hero_text .hero_description {
+  font-size: 1.2rem;
+}
+
+.hero_links {
+  justify-content: center;
+  font-size: 1rem;
+  margin: 32px 0 0 0;
+}
